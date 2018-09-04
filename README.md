@@ -1,1 +1,2 @@
-# berkan.xyz
+# berk.xyz
+This is a website created by me to document my projects and all of my endevors.
