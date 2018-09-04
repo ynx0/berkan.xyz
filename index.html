@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<title>Berk</title>
+</head>
+
+<body>
+	<div id="pagepiling">
+		<div class="section" id="section1">
+			<div class="container" style="max-width:800px;">
+				<h1>Berk</h1>
+				<p>
+					Welcome! <br />You can go through my projects by scrolling down
+					or you can use the drop down menu from the navigation bar. <br /> Enjoy!
+				</p>
+			</div>
+		</div>
+
+		<div class="section" id="section2">
+			<div class="container" style="max-width:800px;">
+				<img src="img/spaceInvaders.png" alt="pagePiling" style="max-height: 200px; width: 200px;"/>
+				<br />
+				<h1>Space Invaders AI</h1>
+				<h5>
+					8/2018
+				</h5>
+				<p>Work in Progress</p>
+				<a href="https://github.com/berkott/SpaceInvadersAI" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Github</a>
+			</div>
+		</div>
+
+		<div class="section" id="section3">
+			<div class="container" style="max-width:800px;">
+				<img src="img/smartLib.png" alt="pagePiling" style="max-height: 200px; width: 200px;"/>
+				<br />
+				<h1>SmartLib</h1>
+				<h5>
+					6/2018
+				</h5>
+				<p>Library Managing app created for FBLA Nationals 2018</p>
+				<a href="https://github.com/berkott/SmartLib" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Github</a>
+			</div>
+		</div>
+
+		<div class="section" id="section4">
+			<div class="container" style="max-width:800px;">
+				<img src="img/titanPowerUp.png" alt="pagePiling" style="max-height: 200px; width: 200px;"/>
+				<br />
+				<h1>Titan Power Up</h1>
+				<h5>
+					3/2018
+				</h5>
+				<p>App created by the Techno Titans to share STEM</p>
+				<a href="https://github.com/berkott/TitanPowerUp" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Github</a>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg navbar-dark" style="z-index: 1000;">
+		<a class="navbar-brand" href="index.html">
+			Berk
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item active">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="https://github.com/berkott">Github</a>
+				</li>
+				<li class="nav-item active dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Projects
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a href="#page1" class="dropdown-item">Home</a>
+						<div class="dropdown-divider"></div>
+						<a href="#page2" class="dropdown-item">Space Invaders AI</a>
+						<a href="#page3" class="dropdown-item">SmartLib</a>
+						<a href="#page4" class="dropdown-item">Titan Power Up</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</body>
+</html>
