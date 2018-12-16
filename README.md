@@ -9,7 +9,7 @@ This is a website created by me to document my projects and all of my endevors.
 - Mobile Optimized
  
 ## Inspiration
-This project was created to be a simple resume and long term documentation of all my projects. Inspired by https://akoratana.xyz.
+This project was created to be a simple resume and long term documentation of all my projects. Inspired by http://www.akoratana.com/.
  
 ## Software Used
 - JavaScript
